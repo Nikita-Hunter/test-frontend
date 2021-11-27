@@ -1,0 +1,11 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  --color-black: rgba(35, 35, 35, 1);
+  --color-graphit: rgba(87, 87, 87, 1);
+  --color-graphit-60: rgba(87, 87, 87, 0.6);
+  --color-accent: rgba(251, 177, 67, 1);
+  --color-accent--hover: rgba(255, 196, 77, 1);
+  --color-light: rgba(247, 248, 250, 1);
+  --color-white: rgba(0, 0, 0, 0.15);
+}
