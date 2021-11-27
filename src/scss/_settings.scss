@@ -18,7 +18,7 @@ body {
   font-weight: 500;
   color: var(--color-graphit);
   background-color: var(--color-light);
-  font-family: 'Avenir Next Cyr';
+  font-family: 'Avenir Next Reqular';
 
 }
 
@@ -55,6 +55,7 @@ a {
   margin: 0 auto;
   padding: 0 15px;
   max-width: 900px;
+  width: 100%;
 }
 
 .js-focus-visible :focus:not(.focus-visible) {
@@ -70,6 +71,7 @@ h1
   line-height: 40px;
   color: var(--color-black);
   text-align: left;
+  font-family: 'Avenir Next Black';
 }
 h4
 {
@@ -77,4 +79,13 @@ h4
   color: var(--color-graphit);
   font-size: 14px;
   line-height: 20px;
+  font-family: 'Avenir Next Light';
+}
+h3
+{
+  font-family: 'Avenir Next Black';
+  font-size: 20px;
+  line-height: 24px;
+  text-align: left;
+  color: var(--color-black);
 }

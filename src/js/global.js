@@ -10,3 +10,9 @@ function dayValue()
     const dayText = document.getElementById('dayText');
     dayText.value = dayRange;
 }
+function input()
+{
+    const valueInput = getElementById('dayText').value;
+    const dayRange = document.getElementById('dayRange');
+    dayRange.value = valueInput;
+}
